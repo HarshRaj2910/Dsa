@@ -6,6 +6,9 @@ public class AlpNumTr {
         int n=sc.nextInt();
         int num=1;
         char ch='A';
+
+//        Odd rows print alphabets and even rows print numbers using nested loops
+
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
                 if(i%2 !=0){        // Checks if the row number is odd
